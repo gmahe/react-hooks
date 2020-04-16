@@ -1,8 +1,8 @@
 import React from "react";
-import useResources from "../hooks/useResources";
+import userResources from "../hooks/userResources";
 
 export default function UserList() {
-  const users = useResources("users");
+  const users = userResources("users");
   return (
     <div>
       <ul>

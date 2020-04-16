@@ -1,8 +1,8 @@
 import React from "react";
-import useResources from "../hooks/useResources";
+import userResources from "../hooks/userResources";
 
 const ResourceList = ({ resource }) => {
-  const resources = useResources(resource);
+  const resources = userResources(resource);
 
   return (
     <div>
